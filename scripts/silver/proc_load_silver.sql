@@ -110,9 +110,9 @@ BEGIN
 		PRINT('----------------------------------------')
 
 		SET @start_time = GETDATE()
-		PRINT ('Truncating the table - silver.crm_cust_info')
-		TRUNCATE TABLE silver.crm_cust_info
-		PRINT ('Inserting Data into the table - silver.crm_cust_info')
+		PRINT ('Truncating the table - silver.crm_prd_info')
+		TRUNCATE TABLE silver.crm_prd_info
+		PRINT ('Inserting Data into the table - silver.crm_prd_info')
 		INSERT INTO silver.crm_prd_info
 		(
 			prd_id,
