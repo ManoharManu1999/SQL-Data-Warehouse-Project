@@ -22,7 +22,7 @@ In this project, I designed and implemented a **modern data warehouse** that:
 
 The entire solution is implemented using **SQL Server and T-SQL**, following industry-standard practices.
 
-🎯 This repository is suitable for professionals and students looking to showcase or build skills related to:
+This repository is suitable for professionals and students looking to showcase or build skills related to:
 
 - SQL Development  
 - Data Architecture  
@@ -215,7 +215,7 @@ This project reflects how I approach data problems, with a strong focus on data 
 
 ---
 
-## 📬 Stay in Touch
+## Stay in Touch
 
 
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/manohark1999)
