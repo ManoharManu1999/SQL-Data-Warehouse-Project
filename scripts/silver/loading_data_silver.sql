@@ -1,6 +1,4 @@
-
-
-/*
+﻿/*
 ===============================================================================
 Stored Procedure: silver.load_silver
 ===============================================================================
@@ -94,7 +92,7 @@ BEGIN
 				WHEN TRIM(UPPER(cst_gndr)) = 'M' THEN 'Male'
 				WHEN TRIM(UPPER(cst_gndr)) = 'F' THEN 'Female'
 				ELSE 'n/a'
-			END AS cst_gender,
+			END AS cst_gndr,
 			cst_create_date
 		FROM
 			(
@@ -108,7 +106,6 @@ BEGIN
 		SET @end_time = GETDATE()
 		PRINT('Loading Time: ' + CAST(DATEDIFF(second, @start_time,@end_time) AS NVARCHAR) + ' seconds')
 		PRINT('----------------------------------------')
-
 		SET @start_time = GETDATE()
 		PRINT ('Truncating the table - silver.crm_prd_info')
 		TRUNCATE TABLE silver.crm_prd_info
@@ -282,3 +279,4 @@ BEGIN
 	END CATCH
 
 END
+
