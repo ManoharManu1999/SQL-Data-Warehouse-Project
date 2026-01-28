@@ -1,4 +1,6 @@
-# Data Warehouse and Analytics Project
+![Data Warehouse Project Banner](Data%20Warehouse%20Project%20Banner.png)
+
+  # 🛢️Data Warehouse and Analytics Project
 
 This repository contains an end-to-end **SQL Server data warehouse project** built to demonstrate practical skills in data engineering, ETL development, and analytical data modeling.
 
